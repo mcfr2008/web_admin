@@ -1,0 +1,66 @@
+
+ /* <!-- bootstrap4 -->
+ <link rel="stylesheet" href="<?= base_url('assets/template/adminlte3/plugins_other/bootstrap4/css/bootstrap.min.css');?>" >
+ <!-- sk_style -->
+ <link rel="stylesheet" href="<?= base_url('assets/template/adminlte3/plugins_other/sk_css/sk_style.css');?>"> */
+
+@font-face {
+  font-family: Sarabun-Regular;src: url('../../../adminlte3/fonts/Sarabun/Sarabun-Regular.ttf');
+}
+
+@font-face {
+  font-family: Sarabun-Light;src: url('../../../adminlte3/fonts/Sarabun/Sarabun-Light.ttf');
+}
+
+@font-face {
+  font-family: THSarabun;src: url('../../../adminlte3/fonts/THSarabun/THSarabun.ttf');
+}
+
+.Export-Sarabun-Regular{
+  font-family: Sarabun-Regular;
+}
+
+.Export-Sarabun-Light{
+  font-family: Sarabun-Light;
+}
+
+.Export-THSarabun{
+  font-family: THSarabun;
+  font-size: 22px;
+}
+
+.Export-hidden {
+  display:none;
+}
+
+.Export-Page-A5 {
+  width: 210mm; 
+  height: 148mm;
+  margin:auto;
+  padding:auto;
+};
+
+.Export-Page-A4 {
+  width: 210mm; 
+  height: 297mm;
+  margin:auto;
+  padding:auto;
+};
+
+.Export-img-1 {
+  height:42px;
+};
+
+
+/* @page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    padding: 10px;
+  } */
+
+
